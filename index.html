@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Evaluación</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" id="inicio">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="formulario">
+        <form class="row g-3" id="quiz-form">
+            <div class="col-md-12">
+                <label for="validationDefault01" class="form-label">Pregunta</label>
+                <input type="text" class="form-control" id="quiz-pregunta" placeholder="¿?" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault02" class="form-label">Opción 1</label>
+                <input type="text" class="form-control" id="quiz-opcionUno" placeholder="a" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault03" class="form-label">Opción 2</label>
+                <input type="text" class="form-control" id="quiz-opcionDos" placeholder="b" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Opción 3</label>
+                <input type="text" class="form-control" id="quiz-opcionTres" placeholder="c" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Opción 4</label>
+                <input type="text" class="form-control" id="quiz-opcionCuatro" placeholder="d" required>
+            </div>
+            <center>
+                <div class="col-md-6">
+                    <label for="validationDefault05" class="form-label">Respuesta correcta</label>
+                    <input type="text" class="form-control" id="quiz-respuesta" placeholder="d" required>
+                </div>
+            </center>
+        
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" id="agregar">Agregar</button>
+            </div>
+        </form>
+    </div>
+
+    <ul id="quiz-lista"></ul>
+
+    <script src="scriptt.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>

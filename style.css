@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#87a6e7,  #c7d5f7, #a6b2cc);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+}
+
+/* Menú */
+    .container-fluid {
+        background-color: #5d6fc2e7;
+        padding: 1%;
+    }
+
+    .navbar-brand {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 55px;
+        color: #000000;
+    }
+
+    .navbar-brand:hover {
+        color: #00000081;
+    }
+
+    #inicio {
+        color: #000000;
+        font-size: 30px;
+    }
+
+    #inicio:hover {
+        color: #00000081;
+    }
+
+    .bg-body-tertiary {
+        --bs-bg-opacity: 0;
+    }
+
+/* Formulario */
+    .formulario {
+        margin: 7%;
+        margin-top: 5%;
+        padding: 3%;
+        background-color: #6d86bda9;
+        border-radius: 1%;
+    }
+
+    #quiz-form {
+        display: flex;
+        text-align: center;
+    }
+
+    .form-control {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 20px;
+    }
+
+/* Agregar */
+    #agregar {
+        margin-top: 3%;
+        background-color: #000000;
+        border: 1px solid #000000;
+        color: rgb(255, 255, 255);
+        font-family: 'League Spartan', sans-serif;
+        font-size: 20px;
+        box-shadow: #000000;
+    }
+
+    #agregar:hover {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: black;
+        box-shadow: #000000;
+    }
+
+/* Editar */
+    #editar {
+        margin-top: 2%;
+        background-color: #3e93a8;
+        border: 1px solid #3e93a8;
+        color: rgb(255, 255, 255);
+        font-family: 'League Spartan', sans-serif;
+        font-size: 20px;
+        box-shadow: #000000;
+    }
+
+    #editar:hover {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: black;
+        box-shadow: #000000;
+    }
+
+/* Eliminar */
+    #eliminar {
+        margin-top: 2%;
+        background-color: #cf2f2f;
+        border: 1px solid #cf2f2f;
+        color: rgb(255, 255, 255);
+        font-family: 'League Spartan', sans-serif;
+        font-size: 20px;
+        box-shadow: #000000;
+    }
+
+    #eliminar:hover {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: black;
+        box-shadow: #000000;
+    }
+
+/* Lista */
+    #quiz-lista {
+        margin: 10%;
+        margin-top: 3%;
+    }
+
+    li {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    h3 {
+        background-color: #6d86bda9;
+        font-size: 22px;
+        padding: 1%;
+    }
